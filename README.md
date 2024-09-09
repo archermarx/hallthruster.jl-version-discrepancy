@@ -10,14 +10,20 @@ To run these tests, I have two Julia environments. Each has Hallthruster.jl inst
 
 ### v0.16.6
 Runtime:           24.35 s
+
 Discharge current: 5.35 A
+
 Ion current:       4.17 A
+
 Thrust:            93.8 mN
 
 ### v0.14.3
 Runtime:           46.88 s
+
 Discharge current: 5.37 A
+
 Ion current:       3.99 A
+
 Thrust:            93.3 mN
 
 ### Observations 
