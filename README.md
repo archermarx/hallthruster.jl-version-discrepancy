@@ -9,39 +9,33 @@ To run these tests, I have two Julia environments. Each has Hallthruster.jl inst
 **NOTE:these tests use the analytic spt-100 magnetic field, as I don't have the one in the csv file on this computer**
 
 ### v0.16.6
-Runtime:           24.35 s
-
-Discharge current: 5.35 A
-
-Ion current:       4.17 A
-
-Thrust:            93.8 mN
+- Runtime:           24.35 s
+- Discharge current: 5.35 A
+- Ion current:       4.17 A
+- Thrust:            93.8 mN
 
 ### v0.14.3
-Runtime:           46.88 s
-
-Discharge current: 5.37 A
-
-Ion current:       3.99 A
-
-Thrust:            93.3 mN
+- Runtime:           46.88 s
+- Discharge current: 5.37 A
+- Ion current:       3.99 A
+- Thrust:            93.3 mN
 
 ### Observations 
 As in my initial tests on this matter, the new version has, if anything, a higher ion current. The discharge current and thrust differ by only O(~1%). The main observable difference is that the new version is nearly twice as fast, which was the reason behind most of the changes made between these two versions.
 
-## Comparison 2 (maagnetic field file)
+## Comparison 2 (magnetic field file)
 
 ### v0.16.6
-Runtime:           24.88 s
-Discharge current: 5.35 A
-Ion current:       4.11 A
-Thrust:            92.6 mN
+- Runtime:           24.88 s
+- Discharge current: 5.35 A
+- Ion current:       4.11 A
+- Thrust:            92.6 mN
 
 ### v0.14.3
-Runtime:           43.49 s
-Discharge current: 5.37 A
-Ion current:       3.99 A
-Thrust:            93.3 mN
+- Runtime:           43.49 s
+- Discharge current: 5.37 A
+- Ion current:       3.99 A
+- Thrust:            93.3 mN
 
 ### Observations
 Basically identical to previous results, no significant difference observed except for ion current, and that goes in reverse to what we expected.
