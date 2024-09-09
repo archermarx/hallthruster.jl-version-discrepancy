@@ -26,9 +26,17 @@ As in my initial tests on this matter, the new version has, if anything, a highe
 ## Comparison 2 (maagnetic field file)
 
 ### v0.16.6
+Runtime:           24.88 s
+Discharge current: 5.35 A
+Ion current:       4.11 A
+Thrust:            92.6 mN
 
-### v0.14.4
+### v0.14.3
+Runtime:           43.49 s
+Discharge current: 5.37 A
+Ion current:       3.99 A
+Thrust:            93.3 mN
 
 ### Observations
+Basically identical to previous results, no significant difference observed except for ion current, and that goes in reverse to what we expected.
 
-## Summary
