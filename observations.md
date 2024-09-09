@@ -1,5 +1,4 @@
 # HallThruster.jl version discrepancy observations
-
 Looking for a discrepancy between the most recent version of the code (v0.16.6) and an earlier version of the code (v0.14.3).
 
 ## Notes on workflow
@@ -10,7 +9,6 @@ To run these tests, I have two Julia environments. Each has Hallthruster.jl inst
 **NOTE:these tests use the analytic spt-100 magnetic field, as I don't have the one in the csv file on this computer**
 
 ### v0.16.6
-
 Runtime:           24.35 s
 Discharge current: 5.35 A
 Ion current:       4.17 A
